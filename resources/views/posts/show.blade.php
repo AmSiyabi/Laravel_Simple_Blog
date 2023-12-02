@@ -9,7 +9,6 @@
 
 @section('content')
 
-
     <div class="post-container">
         <h2>{{ $post->title }}</h2>
 

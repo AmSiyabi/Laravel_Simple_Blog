@@ -14,30 +14,11 @@
 
 		@yield('show-style');
 		@yield('form-style');
+		@yield('posts-index');
 
 
 	</head>
 
-    <style>
-        #header-wrapper{
-			padding-top: 0em; 
-            margin-bottom: 20px;
-        }
-
-		.flash-message {
-			background-color: #4CAF50; /* Green background color */
-			color: white; /* Text color */
-			padding: 10px; /* Padding for better visibility */
-			border-radius: 5px; /* Rounded corners */
-			margin-bottom: 10px; /* Optional margin for spacing */
-		}
-
-		hr {
-			border: 1px solid #333; /* Adjust the color as needed */
-			width: 79%;
-			
-		}
-    </style>
 	<body class="is-preload homepage">
 		<div id="page-wrapper">
 
@@ -107,6 +88,15 @@
 
 		<!-- Scripts -->
 
+		<footer class="footer">
+			<div class="container">
+				<div class="footer-content">
+					<p>&copy; 2023 Ammar Alsiyabi</p>
+					<p>Contact: alsiyabiomn@gmail.com</p>
+				</div>
+			</div>
+		</footer>
+
         <script src="{{ asset('assets/js/jquery.min.js') }}"></script>
         <script src="{{ asset('assets/js/jquery.dropotron.min.js') }}"></script>
         <script src="{{ asset('assets/js/browser.min.js') }}"></script>
@@ -118,4 +108,6 @@
 		
 
 	</body>
+
+	
 </html>

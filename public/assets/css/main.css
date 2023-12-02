@@ -2686,3 +2686,75 @@ input, select, textarea {
 			}
 
 	}
+
+
+	/* -----------------------------------This is main.blade.php page--------------------------------*/
+	#header-wrapper{
+		padding-top: 0em; 
+		margin-bottom: 20px;
+		
+	}
+
+	#page-wrapper {
+		display: flex;
+		flex-direction: column;
+		min-height: 100vh; /* Ensure the wrapper takes at least the full height of the viewport */
+		padding-bottom: 2em; /* Adjust the value to your preferred bottom padding */
+	}
+
+
+
+	.flash-message {
+		background-color: #4CAF50; /* Green background color */
+		color: white; /* Text color */
+		padding: 10px; /* Padding for better visibility */
+		border-radius: 5px; /* Rounded corners */
+		margin-bottom: 10px; /* Optional margin for spacing */
+	}
+
+	hr {
+		border: 1px solid #333; /* Adjust the color as needed */
+		width: 79%;
+		
+	}
+
+	/* public/css/styles.css */
+
+	.footer {
+		background-color: #333;
+		color: #fff;
+		padding: 20px 0;
+		text-align: center;
+	}
+
+	.footer-content {
+		display: flex;
+		justify-content: space-between;
+		flex-wrap: wrap;
+	}
+
+	.footer p {
+		margin: 5px 0;
+	}
+
+
+
+/* -----------------------------------This is welcome.blade.php page--------------------------------*/
+	.view-post-link {
+		display: inline-block;
+		text-decoration: none;
+		padding: 5px;
+		margin-top: 10px;
+		
+		background-color: #0090c5; /* Green background color */
+		color: white; /* Text color */
+		border-radius: 5px; /* Rounded corners */
+		transition-duration: 0.4s;
+	}
+
+	
+	.view-post-link:hover {
+		
+		transition-duration: 0.4s;
+		background-color: #3c8159; /* Green background color */
+	}

@@ -5,17 +5,12 @@
 @section('show-style')
     <link rel="stylesheet" href="{{ asset('assets/css/show.css') }}" />
 
-    <style>
-        .post-container .form-group input,
-        .post-container .form-group textarea {
-            width: 80%; 
-            max-width: 100%; 
-        }
-    </style>
+    
 @endsection
 
 @section('content')
 
+    
     <form action="{{ route('posts.update', ['post' => $post->id]) }}" method="POST" enctype="multipart/form-data">
 
         @csrf

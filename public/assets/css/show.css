@@ -64,3 +64,9 @@
     /* Add hover effect if desired */
     opacity: 0.8;
 }
+
+.post-container .form-group input,
+        .post-container .form-group textarea {
+            width: 80%; 
+            max-width: 100%; 
+        }

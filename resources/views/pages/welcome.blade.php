@@ -7,30 +7,6 @@
 
 @section('content')
 
-    <style>
-        
-            .view-post-link {
-                display: inline-block;
-                text-decoration: none;
-                padding: 5px;
-                margin-top: 10px;
-                
-                background-color: #0090c5; /* Green background color */
-                color: white; /* Text color */
-                border-radius: 5px; /* Rounded corners */
-                transition-duration: 0.4s;
-            }
-
-            
-            .view-post-link:hover {
-                
-                transition-duration: 0.4s;
-                background-color: #3c8159; /* Green background color */
-            }
-
-            
-
-    </style>
 
     <div id="banner-wrapper" style="margin-bottom: 30px;">
         <div id="banner" class="box container">

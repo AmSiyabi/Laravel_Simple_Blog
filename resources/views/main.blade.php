@@ -32,14 +32,7 @@
 									<li class="@yield('aActive')"><a href="\about">About</a></li>
 									<li class="@yield('cActive')"><a href="\contact">Contact</a></li>
 
-                                    <li>
-                                        <a href="#">My Account</a>
-                                        <ul>
-                                            <li><a href="#">Sign Up</a></li>
-                                            <li><a href="#">Login</a></li>
-                                            
-                                        </ul>
-                                    </li>
+                                    
 
 									<li class="@yield('vActive')"><a href="{{ route('posts.index')}}">View Posts</a></li>
 									 

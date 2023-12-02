@@ -8,17 +8,17 @@
 .cotblog {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 20px; /* Adjust as needed for space between divs */
+    margin-bottom: 20px; 
 }
 
 .inner {
-    width: 70%; /* Adjust as needed based on your design */
+    width: 70%; 
 }
 
 .post-actions {
-    width: 78%; /* Adjust as needed based on your design */
+    width: 70%; 
     text-align: right;
-    position: relative; /* Changed to relative for proper positioning */
+    position: relative; 
 }
 
 
@@ -27,7 +27,7 @@ display: inline-block;
 text-decoration: none;
 padding: 10px;
 margin-bottom: 10px;
-background-color: #ff3333; /* Red background color */
+background-color: #ff3333; 
 margin-top: 38px;
 color: white;
 border-radius: 5px;
@@ -35,7 +35,7 @@ transition-duration: 0.4s;
 }
 
 .delete-post-link:hover {
-    background-color: #cc0000; /* Darker red on hover */
+    background-color: #cc0000;
 }
 
 .edit-post-link,
@@ -43,11 +43,11 @@ transition-duration: 0.4s;
     display: inline-block;
     text-decoration: none;
     padding: 10px;
-    margin-bottom: 10px; /* Adjust as needed for spacing between links */
+    margin-bottom: 10px; 
     margin-top: 38px;
-    background-color: #0090c5; /* Green background color */
-    color: white; /* Text color */
-    border-radius: 5px; /* Rounded corners */
+    background-color: #0090c5; 
+    color: white; 
+    border-radius: 5px; 
     transition-duration: 0.4s;
 }
 
@@ -55,7 +55,7 @@ transition-duration: 0.4s;
 .view-post-link:hover {
     
     transition-duration: 0.4s;
-    background-color: #3c8159; /* Green background color */
+    background-color: #3c8159; 
     
 }
 

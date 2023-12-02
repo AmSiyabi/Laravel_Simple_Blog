@@ -26,7 +26,6 @@
                 
                 transition-duration: 0.4s;
                 background-color: #3c8159; /* Green background color */
-                
             }
 
             

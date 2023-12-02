@@ -1,0 +1,66 @@
+.post-container {
+    overflow: hidden; /* Clear float */
+}
+
+.post-content-container {
+    max-width: 900px; /* Adjust max-width as needed */
+    margin-right: 20px; /* Adjust margin as needed */
+}
+
+.post-date {
+    font-style: italic;
+    color: #777; /* Adjust color as needed */
+    margin-bottom: 5px; /* Adjust margin as needed */
+}
+
+.post-container p {
+    margin: 0;
+}
+
+.dates {
+    margin-bottom: 10px; /* Adjust margin as needed */
+}
+
+.load {
+    /* Your styles to make the <p> stand out */
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333; /* Adjust color as needed */
+}
+
+.sidebar {
+    position: absolute;
+    top: 50%; /* Adjust top position as needed */
+    transform: translateY(-50%);
+    right: 30px; /* Adjust right position as needed */
+    width: 200px; /* Adjust width as needed */
+    border: 0.1px solid;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add box shadow for a 3D effect */
+}
+
+.btn {
+    width: 100%;
+    margin-bottom: 10px;
+    text-align: center; /* Center the text within the button */
+    padding: 8px 12px; /* Add padding */
+    border-radius: 5px; /* Add border radius */
+    text-decoration: none; /* Remove underline */
+    display: block; /* Make it a block-level element */
+    color: #fff; /* Text color */
+}
+
+.btn-danger {
+    background-color: #d9534f;
+    border-color: #d9534f;
+}
+
+.btn-primary {
+    background-color: #337ab7;
+    border-color: #337ab7;
+}
+
+.btn:hover {
+    /* Add hover effect if desired */
+    opacity: 0.8;
+}
